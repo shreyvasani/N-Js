@@ -3,5 +3,5 @@ let accountEmail = "A@gmail.com"
 var accountPass = "2222"
 accountCity = "bvn"
 
-accountId = 2
+//accountId = 2
 console.log(accountId);
