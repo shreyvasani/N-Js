@@ -23,5 +23,6 @@ console.log(myDate);
 console.log(myDate.getMonth());
 console.log(myDate.getDay());
 
-
-log
+myDate.toLocaleString('default',{
+    weekday: "long",
+})
