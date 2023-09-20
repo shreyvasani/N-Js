@@ -53,8 +53,7 @@ users[1].email;
 // console.log(tinder)
 // console.log(Object.keys(tinder))
 // console.log(Object.values(tinder))
-// console.log(Object.entries(tinder))
-
+//  console.log(Object.entries(tinder))
 // console.log(tinder.hasOwnProperty('isLoggedin'));
 
 
@@ -70,7 +69,7 @@ const Course = {
 const { CourseTeacher } = Course
 const { CourseTeacher : teacher } = Course
 
-console.log(teacher);
+// console.log(teacher);
 
 
 
