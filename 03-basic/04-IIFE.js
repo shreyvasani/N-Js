@@ -2,9 +2,11 @@
 
 
 (function tea() {
+
+    //named IIFE
     console.log("DB DONE");
 })();
 
-( ()=>{
-    console.log(`db connected two`);
-})()
+( (name)=>{
+    console.log(`db connected two ${name}`);
+})("hitesh")
