@@ -25,7 +25,7 @@ for (let i = 1; i <= 10; i++) {
 }
 
 const myArray = ["flash","batman","superman"]
-console.log(myArray.length);
+// console.log(myArray.length);
 for (let index = 0; index < myArray.length; index++) {
     
     const element = myArray[index];
@@ -34,16 +34,26 @@ for (let index = 0; index < myArray.length; index++) {
 
 //break and continue 
 
+// for (let index = 1; index <= 20; index++) {
+
+//     if (index == 5) {
+//         console.log("5 is here");
+//         break;
+//     }
+//     console.log(`value of ${index}`);
+    
+// }
+
+//continue
+
 for (let index = 1; index <= 20; index++) {
 
     if (index == 5) {
         console.log("5 is here");
-        break;
+        continue
     }
     console.log(`value of ${index}`);
     
 }
-
-
 
 
