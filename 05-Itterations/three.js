@@ -37,10 +37,13 @@ for( const [key,value] of map){
 }
 // console.log(map);
 
-const myObje = {
-    'Game1':'NFS',
-    'Game2':'Spiderman'
-}
-for (const [key,val] of object) {
+
+
+//Objects Are Not Itteratable using For Of
+// const myObje = {
+//     'Game1':'NFS',
+//     'Game2':'Spiderman'
+// }
+// for (const [key,val] of myObje) {
     
-}
+// }
