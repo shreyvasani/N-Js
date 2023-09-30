@@ -30,6 +30,24 @@ buttons.forEach(function (button) {
     if (e.target.id === "yellow") {
       body.style.backgroundColor = e.target.id;
     }
+    //Second Way
+    // switch(e.target.id){
+    //   case "grey":
+    //     Body.style.backgroundColor = e.target.id;
+    //     break;
+    //     case "white":
+    //     Body.style.backgroundColor = e.target.id;
+    //     break;
+    //     case "blue":
+    //     Body.style.backgroundColor = e.target.id;
+    //     break;
+    //     case "yellow":
+    //     Body.style.backgroundColor = e.target.id;
+    //     break;
+    //     default:
+    //     Body.style.backgroundColor = "white";
+        
+    // }
   });
 });
 ```
